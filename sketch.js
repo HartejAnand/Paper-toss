@@ -36,7 +36,7 @@ function draw() {
   paper.display();
 
 	if(keyDown("up")){
-	  Matter.Body.applyForce(paper.body,paper.body.position,{x:0,y:-5});
+	  Matter.Body.applyForce(paper.body,paper.body.position,{x:0,y:-10});
 	}
 	if(keyDown("left")){
 		Matter.Body.applyForce(paper.body,paper.body.position,{x:-5,y:0});
